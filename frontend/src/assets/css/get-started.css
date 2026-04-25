@@ -1,0 +1,215 @@
+/* GLOBAL */
+body {
+  background: linear-gradient(180deg, #020617, #0f172a);
+  color: #e5e7eb;
+}
+
+/* TITLES */
+.main-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #f9fafb;
+}
+
+.main-title span {
+  color: #38bdf8;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #cbd5f5;
+}
+
+/* TOGGLE BUTTONS */
+.toggle-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.toggle-btn {
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 1px solid #38bdf8;
+  background: transparent;
+  color: #38bdf8;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.toggle-btn.active,
+.toggle-btn:hover {
+  background: #38bdf8;
+  color: #020617;
+}
+
+/* CARDS */
+.custom-card {
+  background: rgba(15, 23, 42, 0.85);
+  border-radius: 16px;
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* TEXT */
+.section-title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #f8fafc;
+}
+
+.section-text {
+  color: #cbd5e1;
+  font-size: 1.05rem;
+}
+
+/* NOTE BOX */
+.note-box {
+  background: rgba(2, 6, 23, 0.7);
+  border-left: 5px solid #38bdf8;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: #e5e7eb;
+}
+
+/* ENROLL BUTTON */
+.enroll-btn {
+  padding: 12px 34px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+  border: none;
+  color: #020617;
+  font-weight: 600;
+}
+
+.enroll-btn:hover {
+  opacity: 0.9;
+}
+
+/* HOW IT WORKS */
+.step-card {
+  background: rgba(15, 23, 42, 0.9);
+  border-radius: 16px;
+  padding: 25px;
+  text-align: center;
+  height: 100%;
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.45);
+}
+
+.step-card h5 {
+  color: #f8fafc;
+}
+
+.step-card p {
+  color: #cbd5e1;
+}
+
+/* STEP NUMBER */
+.step-number {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+  color: #020617;
+  border-radius: 50%;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+}
+
+/* WHY CHOOSE */
+.why-section {
+  margin-top: 70px;
+}
+
+.why-card {
+  background: rgba(15, 23, 42, 0.85);
+  border-radius: 16px;
+  padding: 30px;
+  height: 100%;
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.why-card h5 {
+  color: #f8fafc;
+}
+
+.why-card p {
+  color: #cbd5e1;
+}
+
+
+.voter-bg {
+  background: linear-gradient(180deg, #020617, #0f172a);
+  color: #e5e7eb;
+}
+
+.card {
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 16px;
+}
+
+.voter-card {
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.15);
+}
+
+.info-card,
+.important-card {
+  transition: transform 0.3s ease;
+}
+
+.info-card:hover,
+.important-card:hover {
+  transform: translateY(-5px);
+}
+
+.label {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-bottom: 0;
+}
+
+.value {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.section-title {
+  color: #38bdf8;
+  margin-bottom: 1rem;
+}
+
+.sub-title {
+  color: #22c55e;
+  margin-top: 1rem;
+}
+
+.verified-badge {
+  color: #22c55e;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.aadhaar-verified {
+  margin-top: 1rem;
+  color: #22c55e;
+  font-weight: 500;
+}
+
+.important-card ul {
+  padding-left: 1.2rem;
+}
+
+.important-card li {
+  margin-bottom: 0.6rem;
+}
+

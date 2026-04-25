@@ -1,0 +1,58 @@
+.enroll-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.enroll-card {
+    color: white;
+  max-width: 720px;
+  background: rgba(15, 23, 42, 0.9);
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+.enroll-card h2 {
+  color: #f8fafc;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: #cbd5e1;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+.form-control {
+  background: #020617;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  color: #e5e7eb;
+}
+
+.form-control::placeholder {
+  color: #94a3b8;
+}
+
+.form-control:focus {
+  background: #020617;
+  color: #fff;
+  border-color: #38bdf8;
+  box-shadow: none;
+}
+
+.enroll-btn {
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+  border: none;
+  color: #020617;
+  font-weight: 600;
+  padding: 10px 30px;
+  border-radius: 30px;
+}

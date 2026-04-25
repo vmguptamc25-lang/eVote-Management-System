@@ -1,0 +1,160 @@
+.vote-page{
+background:#f4f6fb;
+min-height:100vh;
+padding-bottom:40px;
+}
+
+/* header */
+
+.vote-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+.header-left{
+display:flex;
+gap:15px;
+align-items:center;
+}
+
+.logo-box{
+width:40px;
+height:40px;
+background:linear-gradient(135deg,#5f6cff,#9b2cff);
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:10px;
+font-weight:bold;
+}
+
+.header-left h4{
+margin:0;
+font-weight:600;
+}
+
+.header-left p{
+margin:0;
+font-size:13px;
+color:#777;
+}
+
+.header-right span{
+margin-left:20px;
+font-size:14px;
+}
+
+/* timer */
+
+.timer-box{
+background:white;
+margin:20px auto;
+width:250px;
+padding:15px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.timer{
+font-size:36px;
+font-weight:700;
+color:#6a4cff;
+}
+
+/* how vote */
+
+.how-vote{
+margin:30px 40px;
+padding:25px;
+border-radius:14px;
+background:linear-gradient(135deg,#4776e6,#8e2de2);
+}
+
+.step span{
+background:rgba(255,255,255,0.25);
+padding:8px 14px;
+border-radius:8px;
+font-weight:600;
+}
+
+.step h6{
+margin-top:10px;
+}
+
+.step p{
+font-size:13px;
+opacity:0.9;
+}
+
+/* candidate cards */
+
+.candidate-card{
+background:white;
+padding:25px;
+text-align:center;
+border-radius:12px;
+cursor:pointer;
+position:relative;
+transition:0.3s;
+border:2px solid transparent;
+box-shadow:0 6px 20px rgba(0,0,0,0.05);
+}
+
+.candidate-card:hover{
+transform:translateY(-5px);
+}
+
+.candidate-card.active{
+border:2px solid #4a6cf7;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.candidate-card img{
+width:80px;
+height:80px;
+border-radius:50%;
+margin-bottom:10px;
+}
+
+.candidate-card h6{
+font-weight:600;
+}
+
+.id{
+font-size:12px;
+color:#777;
+}
+
+.select-circle{
+position:absolute;
+top:10px;
+right:10px;
+width:22px;
+height:22px;
+border-radius:50%;
+border:2px solid #ccc;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:12px;
+}
+
+/* vote button */
+
+.vote-btn{
+background:linear-gradient(135deg,#4776e6,#8e2de2);
+border:none;
+padding:10px 25px;
+color:white;
+border-radius:8px;
+font-weight:500;
+}
+
+.vote-btn:hover{
+opacity:0.9;
+}

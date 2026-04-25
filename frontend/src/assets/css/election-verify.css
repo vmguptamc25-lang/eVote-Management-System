@@ -1,0 +1,59 @@
+/* ===== Election Verification Page ===== */
+
+.ev-verification-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ffffff, #ffffff);
+  padding: 20px;
+}
+
+.ev-verification-card {
+  border-radius: 15px;
+  border: none;
+  max-width: 500px;
+  width: 100%;
+  background: #ffffff;
+  animation: evFadeIn 0.5s ease-in-out;
+}
+
+.ev-verification-card h2 {
+  color: #0d6efd;
+  letter-spacing: 0.5px;
+}
+
+.ev-verification-card p {
+  font-size: 14px;
+}
+
+.ev-label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.ev-verify-icon {
+  font-size: 40px;
+  color: #0d6efd;
+  margin-bottom: 10px;
+}
+
+/* Animation */
+@keyframes evFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  .ev-verification-card {
+    padding: 15px;
+  }
+}

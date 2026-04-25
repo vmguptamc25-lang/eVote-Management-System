@@ -1,0 +1,35 @@
+.result-header {
+  background: linear-gradient(90deg, #4e54c8, #8f00ff);
+}
+
+.result-card {
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card-header-custom {
+  background: linear-gradient(90deg, #4e54c8, #8f00ff);
+}
+
+.winner-box {
+  background: #fff8e1;
+}
+
+.winner-card {
+  border: 2px solid #ffc107;
+  border-radius: 10px;
+}
+
+.candidate-card {
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.rank {
+  background: #ffc107;
+  padding: 5px 10px;
+  border-radius: 50%;
+  font-weight: bold;
+}

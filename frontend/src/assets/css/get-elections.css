@@ -1,0 +1,147 @@
+.election-wrapper{
+  background:#f7f9fc;
+  min-height:100vh;
+}
+
+.portal-title{
+  font-weight:700;
+  font-size:30px;
+}
+
+.portal-subtitle{
+  color:#666;
+  margin-bottom:20px;
+}
+
+.search-box{
+  margin-bottom:25px;
+  border-radius:8px;
+}
+
+.stats-row{
+  margin-bottom:30px;
+}
+
+.stat-card{
+  background:white;
+  border-radius:10px;
+  padding:20px;
+  text-align:center;
+  box-shadow:0 4px 10px rgba(0,0,0,0.05);
+  transition:0.3s;
+}
+
+.stat-card:hover{
+  transform:translateY(-4px);
+}
+
+.stat-card h3{
+  font-weight:700;
+}
+
+.stat-ongoing{
+  border-left:5px solid #ff4d4f;
+}
+
+.stat-upcoming{
+  border-left:5px solid #faad14;
+}
+
+.stat-completed{
+  border-left:5px solid #52c41a;
+}
+
+.stat-voters{
+  border-left:5px solid #1677ff;
+}
+
+.election-card{
+  background:white;
+  border-radius:12px;
+  padding:20px;
+  margin-bottom:20px;
+  transition:0.3s;
+  position:relative;
+  box-shadow:0 5px 15px rgba(0,0,0,0.06);
+}
+
+.election-card:hover{
+  transform:translateY(-6px);
+}
+
+.election-card h5{
+  font-weight:600;
+  margin-top:10px;
+}
+
+.desc{
+  font-size:14px;
+  color:#666;
+}
+
+.meta{
+  display:flex;
+  gap:10px;
+  font-size:13px;
+  margin:10px 0;
+  color:#444;
+}
+
+.date{
+  font-size:13px;
+  color:#555;
+}
+
+.registered{
+  font-size:14px;
+  font-weight:500;
+}
+
+.turnout{
+  margin-top:10px;
+  font-size:14px;
+}
+
+.progress{
+  height:8px;
+  border-radius:5px;
+}
+
+.card-buttons{
+  display:flex;
+  gap:10px;
+  margin-top:15px;
+}
+
+.badge-live{
+  position:absolute;
+  top:12px;
+  right:12px;
+  background:#ff4d4f;
+}
+
+.badge-upcoming{
+  position:absolute;
+  top:12px;
+  right:12px;
+  background:#faad14;
+}
+
+.badge-completed{
+  position:absolute;
+  top:12px;
+  right:12px;
+  background:#52c41a;
+}
+
+@media(max-width:768px){
+
+  .portal-title{
+    font-size:24px;
+  }
+
+  .stat-card{
+    margin-bottom:15px;
+  }
+
+}

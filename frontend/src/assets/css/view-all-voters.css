@@ -1,0 +1,84 @@
+.vm-container {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+.vm_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.vm-header h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.vm-search {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  outline: none;
+  width: 250px;
+  transition: 0.2s ease;
+}
+
+.vm-search:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+.vm-table-wrapper {
+  overflow-x: auto;
+}
+
+.vm-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.vm-table thead {
+  background-color: #f1f5f9;
+}
+
+.vm-table th {
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+  color: #475569;
+}
+
+.vm-table td {
+  padding: 12px;
+  border-top: 1px solid #e5e7eb;
+  font-size: 14px;
+}
+
+.vm-table tbody tr {
+  transition: background 0.2s ease;
+}
+
+.vm-table tbody tr:hover {
+  background-color: #f8fafc;
+}
+
+.vm-empty {
+  padding: 20px;
+  text-align: center;
+  color: #64748b;
+}
+
+.vm-loading {
+  padding: 20px;
+  font-weight: 500;
+}
+
+.vm-error {
+  color: red;
+  padding: 20px;
+}

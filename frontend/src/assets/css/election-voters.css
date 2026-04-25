@@ -1,0 +1,104 @@
+.vm-wrapper {
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+/* Header Card */
+.vm-header {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+
+/* Back Button */
+.vm-back-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #4b5563;
+  cursor: pointer;
+}
+
+/* Total Card */
+.vm-total-card {
+  background: #dbeafe;
+  padding: 25px 40px;
+  border-radius: 18px;
+  color: #1e40af;
+  min-width: 160px;
+}
+
+/* Tabs */
+.vm-tabs {
+  background: white;
+  padding: 12px;
+  border-radius: 20px;
+  display: inline-flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.vm-tab {
+  border: none;
+  padding: 12px 20px;
+  border-radius: 15px;
+  background: transparent;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.vm-tab.active {
+  background: #2563eb;
+  color: white;
+}
+
+/* Upload Card */
+.vm-upload-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+/* Upload Box */
+.vm-upload-box {
+  border: 2px dashed #60a5fa;
+  border-radius: 20px;
+  padding: 60px 20px;
+  margin-top: 20px;
+  background: #f8fafc;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.vm-upload-box:hover {
+  background: #eff6ff;
+}
+
+.vm-upload-icon {
+  font-size: 40px;
+  background: #dbeafe;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  color: #2563eb;
+}
+
+.browse-text {
+  color: #2563eb;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Format Card */
+.vm-format-card {
+  background: #f9fafb;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
